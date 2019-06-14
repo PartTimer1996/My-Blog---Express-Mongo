@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB" ,
+mongoose.connect("mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/test?retryWrites=true&w=majority",
 { /*useNewUrlParser: true*/ }
 )
 .then(() => console.log('MongoDB Connected'))

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f087c9bc-583a-4965-bfee-eec1d321b1a5" name="Default Changelist" comment="" />
+    <list default="true" id="f087c9bc-583a-4965-bfee-eec1d321b1a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="375">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -98,9 +101,9 @@
         <option value="$PROJECT_DIR$/views/compose.ejs" />
         <option value="$PROJECT_DIR$/views/home.ejs" />
         <option value="$PROJECT_DIR$/views/post.ejs" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -123,11 +126,6 @@
             <path>
               <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="b2602c69:ProjectViewProjectNode" />
@@ -195,12 +193,12 @@
       <updated>1560290955324</updated>
       <workItem from="1560290958142" duration="5793000" />
       <workItem from="1560519794411" duration="170000" />
-      <workItem from="1560520033804" duration="9359000" />
+      <workItem from="1560520033804" duration="10011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15322000" />
+    <option name="totallyTimeSpent" value="15974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="994" y="25" width="926" height="1052" extended-state="4" />
@@ -279,13 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -300,10 +291,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

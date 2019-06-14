@@ -23,7 +23,11 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB" ,
+{ /*useNewUrlParser: true*/ }
+)
+.then(() => console.log('MongoDB Connected'))
+    .catch(err => console.log(err));
 
 const postSchema = {
   title:  String,

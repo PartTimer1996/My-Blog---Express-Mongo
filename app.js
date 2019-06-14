@@ -23,11 +23,18 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/test?retryWrites=true&w=majority",
-{ /*useNewUrlParser: true*/ }
-)
-.then(() => console.log('MongoDB Connected'))
-    .catch(err => console.log(err));
+var uristring =
+    process.env.MONGOLAB_URI ||
+    process.env.MONGOHQ_URL ||
+    "mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB";
+
+mongoose.connect(uristring, {useNewUrlParser: true}, function (err, res) {
+  if (err) {
+    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
+  } else {
+    console.log ('Succeeded connected to: ' + uristring);
+  }
+});
 
 const postSchema = {
   title:  String,
@@ -117,6 +124,6 @@ app.post("/compose", function(req, res) {
 
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log("App is running on port " + port);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

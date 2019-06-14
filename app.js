@@ -27,7 +27,7 @@ app.use(express.static("public"));
 const uristring =
     process.env.MONGOLAB_URI ||
     process.env.MONGOHQ_URL ||
-    "mongodb://localhost:27017/blogDB";
+    "mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB";
 
 
 mongoose.connect(uristring, {useNewUrlParser: true}, function (err, res) {

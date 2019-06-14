@@ -23,10 +23,12 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-var uristring =
+
+const uristring =
     process.env.MONGOLAB_URI ||
     process.env.MONGOHQ_URL ||
-    "mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/test?retryWrites=true&w=majority\n";
+    "mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB";
+
 
 mongoose.connect(uristring, {useNewUrlParser: true}, function (err, res) {
   if (err) {

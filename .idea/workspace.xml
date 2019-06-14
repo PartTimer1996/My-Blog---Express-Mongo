@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="390">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -135,6 +135,11 @@
             <path>
               <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog Website - Boss Level EJS &amp; Node Challenge" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,12 +203,12 @@
       <updated>1560290955324</updated>
       <workItem from="1560290958142" duration="5793000" />
       <workItem from="1560519794411" duration="170000" />
-      <workItem from="1560520033804" duration="13308000" />
+      <workItem from="1560520033804" duration="14551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19271000" />
+    <option name="totallyTimeSpent" value="20514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="994" y="25" width="926" height="1052" extended-state="4" />
@@ -305,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="390">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -27,7 +27,7 @@ app.use(express.static("public"));
 const uristring =
     process.env.MONGOLAB_URI ||
     process.env.MONGOHQ_URL ||
-    "mongodb+srv://Admin:Edenhazard69!@cluster0-b6puq.mongodb.net/BlogsiteDB";
+    "mongodb://localhost:27017/blogDB";
 
 
 mongoose.connect(uristring, {useNewUrlParser: true}, function (err, res) {
@@ -124,8 +124,8 @@ app.post("/compose", function(req, res) {
   });
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 5000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });

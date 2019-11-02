@@ -16,7 +16,7 @@
     "form-data": "^2.3.3",
     "lodash": "^4.17.11",
     "mongodb": "^3.2.7",
-    "mongoose": "^5.5.15"
+    "mongoose": "^5.7.5"
   },
   "engines": {
     "node": "12.4.0",
